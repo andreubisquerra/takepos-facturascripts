@@ -18,6 +18,6 @@ class Takepos extends Controller
     public function privateCore(&$response, $user, $permissions)
     {
         parent::privateCore($response, $user, $permissions);
-		$this->setTemplate('Wizard');
+		$this->setTemplate('Takepos');
     }
 }
